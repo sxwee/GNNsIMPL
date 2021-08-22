@@ -17,11 +17,11 @@ matplotlib 3.3.4
 
 # Project Introduction
 
-==Semi-GCN==: a two-layer GCN Model
+**Semi-GCN**: a two-layer GCN Model
 
-==Related Paper==: [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907)
+**Related Paper**: [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907)
 
-==Blog on CSDN==: transport
+**Blog on CSDN**: transport
 
 ------
 

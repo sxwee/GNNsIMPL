@@ -21,7 +21,7 @@ matplotlib 3.3.4
 
 **Related Paper**: [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907)
 
-**Blog on CSDN**: transport
+**Blog on CSDN**: [transport](https://blog.csdn.net/qq_42103091/article/details/119859728)
 
 ------
 

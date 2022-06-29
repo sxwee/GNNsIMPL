@@ -18,6 +18,7 @@ class GATConv(MessagePassing):
 
     def forward(self, x, edge_index):
         edge_index, _ = add_remaining_self_loops(edge_index)
+        # Wh
         h = self.lin(x)
         h_prime = self.propagate(edge_index, x=h)
         return h_prime
@@ -25,8 +26,11 @@ class GATConv(MessagePassing):
     def message(self, x_i, x_j, edge_index_i):
         x_i = x_i.view(-1, self.num_heads, self.out_feats)
         x_j = x_j.view(-1, self.num_heads, self.out_feats)
+        # a(Wh_i, Wh_j)
         e = self.a(torch.cat([x_i, x_j], dim=-1)).permute(1, 0, 2)
+        # LeakReLU(a(Wh_i, Wh_j))
         e = self.leakrelu(e.permute(1, 0, 2))
+        # softmax(e_{ij})
         alpha = softmax(e, edge_index_i)
         alpha = F.dropout(alpha, self.drop_prob, self.training)
         return (x_j * alpha).view(x_j.size(0), -1)

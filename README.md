@@ -29,7 +29,7 @@ matplotlib 3.3.4
 
 **Related Paper**: [GRAPH ATTENTION NETWORKS](https://arxiv.org/abs/1710.10903)
 
-**Blog on CSDN**: transport
+**Blog on CSDN**: [transport](https://blog.csdn.net/qq_42103091/article/details/125524766?spm=1001.2014.3001.5502)
 
 ------
 

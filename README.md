@@ -1,6 +1,6 @@
 # GNNsImplementation
 
-This repository will update the Implementation of variants of GNNs. Welcome to contru project!!!
+This repository will update the implementation of variants of GNNs. Welcome to contrubute to this project!!!
 
 # Environment
 

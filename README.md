@@ -33,6 +33,12 @@ matplotlib 3.3.4
 
 ------
 
+**H2GCN**：based on [Beyond Homophily in Graph Neural Networks: Current Limitations and Effective Designs](https://arxiv.org/abs/2006.11468)
+
+**Blog on CSDN**: [transport](https://blog.csdn.net/qq_42103091/article/details/126242752?spm=1001.2014.3001.5501)
+
+------
+
 to be continue...
 
 # References
